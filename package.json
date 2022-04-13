@@ -17,6 +17,10 @@
     "puppet",
     "ssh"
   ],
+  "exports": {
+    "./terraform": "./src/terraform.js",
+    ".": "./src/index.js"
+  },
   "author": "Urza Jaddo <skaltura@yandex.ru>",
   "dependencies": {
     "ansible-vault": "^1.1.0",

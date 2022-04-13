@@ -1,4 +1,5 @@
 let options = {
+    "debug": false,
     "vaultFile": ".vault.ini",
     "loadFile": "Tightbeam.js",
     "version": require("../package.json").version
