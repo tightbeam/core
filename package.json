@@ -1,0 +1,25 @@
+{
+  "name": "@tightbeam/core",
+  "version": "0.0.1",
+  "description": "Tightbeam - IaC inspired by ansible and terraform",
+  "main": "/src/index.js",
+  "private": false,
+  "homepage": "https://tightbeam.dev",
+  "bin": {
+    "tightbeam": "./src/cli.js",
+    "tb": "./src/cli.js"
+  },
+  "keywords": [
+    "ansible",
+    "terraform",
+    "iac",
+    "chef",
+    "puppet",
+    "ssh"
+  ],
+  "author": "Urza Jaddo <skaltura@yandex.ru>",
+  "dependencies": {
+    "commander": "^9.1.0",
+    "ejs": "^3.1.6"
+  }
+}
