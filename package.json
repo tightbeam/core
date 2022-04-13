@@ -1,10 +1,13 @@
 {
   "name": "@tightbeam/core",
   "version": "0.0.1",
-  "description": "Tightbeam - IaC inspired by ansible and terraform",
-  "main": "/src/index.js",
+  "description": "Tightbeam - rogue devops' little helper script",
   "private": false,
   "homepage": "https://tightbeam.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tightbeam/core.git"
+  },
   "bin": {
     "tightbeam": "./src/cli.js",
     "tb": "./src/cli.js"
@@ -18,7 +21,7 @@
     "ssh"
   ],
   "exports": {
-    "./terraform": "./src/terraform.js",
+    "./console": "./src/console.js",
     ".": "./src/index.js"
   },
   "author": "Urza Jaddo <skaltura@yandex.ru>",
