@@ -20,5 +20,6 @@ program
     ));
 
 require("./cmd/init")(program);
+require("./cmd/vault")(program);
 
 program.parse()

@@ -45,6 +45,7 @@ module.exports = (program) => {
     .addCommand(
         new Command("init")
             .argument("[path]", "project root", ".")
+            .description("initialize project folder")
             .action(initProject)
     );
 }

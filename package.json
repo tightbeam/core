@@ -19,7 +19,10 @@
   ],
   "author": "Urza Jaddo <skaltura@yandex.ru>",
   "dependencies": {
+    "ansible-vault": "^1.1.0",
     "commander": "^9.1.0",
-    "ejs": "^3.1.6"
+    "ejs": "^3.1.6",
+    "ini": "^3.0.0",
+    "readline-sync": "^1.4.10"
   }
 }
