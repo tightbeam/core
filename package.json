@@ -1,7 +1,7 @@
 {
   "name": "@tightbeam/core",
   "version": "0.0.1",
-  "description": "Tightbeam - rogue devops' little helper script",
+  "description": "Tightbeam - rogue sysadmins' little helper script",
   "private": false,
   "homepage": "https://tightbeam.dev",
   "repository": {
